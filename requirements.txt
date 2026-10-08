@@ -1,0 +1,12 @@
+openai
+langchain
+langchain-core
+langchain-openai
+chromadb
+sentence-transformers
+python-dotenv
+flask
+requests
+pydantic
+pandas
+sentence_transformers

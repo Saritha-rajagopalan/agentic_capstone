@@ -1,0 +1,1311 @@
+2026-10-04 14:02:20,685 | INFO | HTTP Request: GET https://huggingface.co/api/agent-harnesses "HTTP/1.1 200 OK"
+2026-10-04 14:02:20,924 | INFO | HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+2026-10-04 14:02:20,925 | WARNING | Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+2026-10-04 14:02:20,947 | INFO | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/modules.json?%2Fsentence-transformers%2Fall-MiniLM-L6-v2%2Fresolve%2Fmain%2Fmodules.json=&etag=%22952a9b81c0bfd99800fabf352f69c7ccd46c5e43%22 "HTTP/1.1 200 OK"
+2026-10-04 14:02:20,967 | INFO | HTTP Request: GET https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/modules.json?%2Fsentence-transformers%2Fall-MiniLM-L6-v2%2Fresolve%2Fmain%2Fmodules.json=&etag=%22952a9b81c0bfd99800fabf352f69c7ccd46c5e43%22 "HTTP/1.1 200 OK"
+2026-10-04 14:02:21,241 | INFO | HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json "HTTP/1.1 307 Temporary Redirect"
+2026-10-04 14:02:21,259 | INFO | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/config_sentence_transformers.json?%2Fsentence-transformers%2Fall-MiniLM-L6-v2%2Fresolve%2Fmain%2Fconfig_sentence_transformers.json=&etag=%22fd1b291129c607e5d49799f87cb219b27f98acdf%22 "HTTP/1.1 200 OK"
+2026-10-04 14:02:21,282 | INFO | HTTP Request: GET https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/config_sentence_transformers.json?%2Fsentence-transformers%2Fall-MiniLM-L6-v2%2Fresolve%2Fmain%2Fconfig_sentence_transformers.json=&etag=%22fd1b291129c607e5d49799f87cb219b27f98acdf%22 "HTTP/1.1 200 OK"
+2026-10-04 14:02:21,291 | INFO | Loading SentenceTransformer model from sentence-transformers/all-MiniLM-L6-v2.
+2026-10-04 14:02:21,549 | INFO | HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json "HTTP/1.1 307 Temporary Redirect"
+2026-10-04 14:02:21,565 | INFO | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/config_sentence_transformers.json?%2Fsentence-transformers%2Fall-MiniLM-L6-v2%2Fresolve%2Fmain%2Fconfig_sentence_transformers.json=&etag=%22fd1b291129c607e5d49799f87cb219b27f98acdf%22 "HTTP/1.1 200 OK"
+2026-10-04 14:02:21,799 | INFO | HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-10-04 14:02:21,818 | INFO | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/README.md?%2Fsentence-transformers%2Fall-MiniLM-L6-v2%2Fresolve%2Fmain%2FREADME.md=&etag=%2244af2e3b0fa3a0b6239e48422972bf755f28fde0%22 "HTTP/1.1 200 OK"
+2026-10-04 14:02:21,887 | INFO | HTTP Request: GET https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/README.md?%2Fsentence-transformers%2Fall-MiniLM-L6-v2%2Fresolve%2Fmain%2FREADME.md=&etag=%2244af2e3b0fa3a0b6239e48422972bf755f28fde0%22 "HTTP/1.1 200 OK"
+2026-10-04 14:02:22,135 | INFO | HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+2026-10-04 14:02:22,158 | INFO | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/modules.json?%2Fsentence-transformers%2Fall-MiniLM-L6-v2%2Fresolve%2Fmain%2Fmodules.json=&etag=%22952a9b81c0bfd99800fabf352f69c7ccd46c5e43%22 "HTTP/1.1 200 OK"
+2026-10-04 14:02:22,432 | INFO | HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/sentence_bert_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-10-04 14:02:22,485 | INFO | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/sentence_bert_config.json?%2Fsentence-transformers%2Fall-MiniLM-L6-v2%2Fresolve%2Fmain%2Fsentence_bert_config.json=&etag=%2259d594003bf59880a884c574bf88ef7555bb0202%22 "HTTP/1.1 200 OK"
+2026-10-04 14:02:22,546 | INFO | HTTP Request: GET https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/sentence_bert_config.json?%2Fsentence-transformers%2Fall-MiniLM-L6-v2%2Fresolve%2Fmain%2Fsentence_bert_config.json=&etag=%2259d594003bf59880a884c574bf88ef7555bb0202%22 "HTTP/1.1 200 OK"
+2026-10-04 14:02:22,836 | INFO | HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/adapter_config.json "HTTP/1.1 404 Not Found"
+2026-10-04 14:02:23,161 | INFO | HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2 "HTTP/1.1 200 OK"
+2026-10-04 14:02:23,430 | INFO | HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-10-04 14:02:23,476 | INFO | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/config.json?%2Fsentence-transformers%2Fall-MiniLM-L6-v2%2Fresolve%2F1110a243fdf4706b3f48f1d95db1a4f5529b4d41%2Fconfig.json=&etag=%2272b987fd805cfa2b58c4c8c952b274a11bfd5a00%22 "HTTP/1.1 200 OK"
+2026-10-04 14:02:23,522 | INFO | HTTP Request: GET https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/config.json?%2Fsentence-transformers%2Fall-MiniLM-L6-v2%2Fresolve%2F1110a243fdf4706b3f48f1d95db1a4f5529b4d41%2Fconfig.json=&etag=%2272b987fd805cfa2b58c4c8c952b274a11bfd5a00%22 "HTTP/1.1 200 OK"
+2026-10-04 14:02:23,782 | INFO | HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2 "HTTP/1.1 200 OK"
+2026-10-04 14:02:24,267 | INFO | HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/model.safetensors "HTTP/1.1 302 Found"
+2026-10-04 14:02:24,734 | INFO | HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2/xet-read-token/1110a243fdf4706b3f48f1d95db1a4f5529b4d41 "HTTP/1.1 200 OK"
+2026-10-04 14:02:30,255 | INFO | HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2 "HTTP/1.1 200 OK"
+2026-10-04 14:02:30,507 | INFO | HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/processor_config.json "HTTP/1.1 404 Not Found"
+2026-10-04 14:02:30,737 | INFO | HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/preprocessor_config.json "HTTP/1.1 404 Not Found"
+2026-10-04 14:02:30,966 | INFO | HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/video_preprocessor_config.json "HTTP/1.1 404 Not Found"
+2026-10-04 14:02:31,200 | INFO | HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-10-04 14:02:31,216 | INFO | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/tokenizer_config.json?%2Fsentence-transformers%2Fall-MiniLM-L6-v2%2Fresolve%2F1110a243fdf4706b3f48f1d95db1a4f5529b4d41%2Ftokenizer_config.json=&etag=%22c79f2b6a0cea6f4b564fed1938984bace9d30ff0%22 "HTTP/1.1 200 OK"
+2026-10-04 14:02:31,232 | INFO | HTTP Request: GET https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/tokenizer_config.json?%2Fsentence-transformers%2Fall-MiniLM-L6-v2%2Fresolve%2F1110a243fdf4706b3f48f1d95db1a4f5529b4d41%2Ftokenizer_config.json=&etag=%22c79f2b6a0cea6f4b564fed1938984bace9d30ff0%22 "HTTP/1.1 200 OK"
+2026-10-04 14:02:31,487 | INFO | HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+2026-10-04 14:02:31,733 | INFO | HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-10-04 14:02:31,968 | INFO | HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/vocab.txt "HTTP/1.1 307 Temporary Redirect"
+2026-10-04 14:02:31,982 | INFO | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/vocab.txt?%2Fsentence-transformers%2Fall-MiniLM-L6-v2%2Fresolve%2F1110a243fdf4706b3f48f1d95db1a4f5529b4d41%2Fvocab.txt=&etag=%22fb140275c155a9c7c5a3b3e0e77a9e839594a938%22 "HTTP/1.1 200 OK"
+2026-10-04 14:02:32,005 | INFO | HTTP Request: GET https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/vocab.txt?%2Fsentence-transformers%2Fall-MiniLM-L6-v2%2Fresolve%2F1110a243fdf4706b3f48f1d95db1a4f5529b4d41%2Fvocab.txt=&etag=%22fb140275c155a9c7c5a3b3e0e77a9e839594a938%22 "HTTP/1.1 200 OK"
+2026-10-04 14:02:32,256 | INFO | HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/tokenizer.json "HTTP/1.1 307 Temporary Redirect"
+2026-10-04 14:02:32,273 | INFO | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/tokenizer.json?%2Fsentence-transformers%2Fall-MiniLM-L6-v2%2Fresolve%2F1110a243fdf4706b3f48f1d95db1a4f5529b4d41%2Ftokenizer.json=&etag=%22cb202bfe2e3c98645018a6d12f182a434c9d3e02%22 "HTTP/1.1 200 OK"
+2026-10-04 14:02:32,305 | INFO | HTTP Request: GET https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/tokenizer.json?%2Fsentence-transformers%2Fall-MiniLM-L6-v2%2Fresolve%2F1110a243fdf4706b3f48f1d95db1a4f5529b4d41%2Ftokenizer.json=&etag=%22cb202bfe2e3c98645018a6d12f182a434c9d3e02%22 "HTTP/1.1 200 OK"
+2026-10-04 14:02:32,559 | INFO | HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/added_tokens.json "HTTP/1.1 404 Not Found"
+2026-10-04 14:02:32,786 | INFO | HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/special_tokens_map.json "HTTP/1.1 307 Temporary Redirect"
+2026-10-04 14:02:32,806 | INFO | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/special_tokens_map.json?%2Fsentence-transformers%2Fall-MiniLM-L6-v2%2Fresolve%2F1110a243fdf4706b3f48f1d95db1a4f5529b4d41%2Fspecial_tokens_map.json=&etag=%22e7b0375001f109a6b8873d756ad4f7bbb15fbaa5%22 "HTTP/1.1 200 OK"
+2026-10-04 14:02:32,827 | INFO | HTTP Request: GET https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/special_tokens_map.json?%2Fsentence-transformers%2Fall-MiniLM-L6-v2%2Fresolve%2F1110a243fdf4706b3f48f1d95db1a4f5529b4d41%2Fspecial_tokens_map.json=&etag=%22e7b0375001f109a6b8873d756ad4f7bbb15fbaa5%22 "HTTP/1.1 200 OK"
+2026-10-04 14:02:33,063 | INFO | HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/chat_template.jinja "HTTP/1.1 404 Not Found"
+2026-10-04 14:02:33,372 | INFO | HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/1_Pooling/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-10-04 14:02:33,387 | INFO | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/1_Pooling%2Fconfig.json?%2Fsentence-transformers%2Fall-MiniLM-L6-v2%2Fresolve%2Fmain%2F1_Pooling%2Fconfig.json=&etag=%22d1514c3162bbe87b343f565fadc62e6c06f04f03%22 "HTTP/1.1 200 OK"
+2026-10-04 14:02:33,403 | INFO | HTTP Request: GET https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/1_Pooling%2Fconfig.json?%2Fsentence-transformers%2Fall-MiniLM-L6-v2%2Fresolve%2Fmain%2F1_Pooling%2Fconfig.json=&etag=%22d1514c3162bbe87b343f565fadc62e6c06f04f03%22 "HTTP/1.1 200 OK"
+2026-10-04 14:02:33,649 | INFO | HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/2_Normalize/config.json "HTTP/1.1 404 Not Found"
+2026-10-04 14:02:33,885 | INFO | HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2 "HTTP/1.1 200 OK"
+2026-10-04 14:02:34,533 | INFO | Banking policy collection initialized.
+2026-10-04 14:02:34,634 | INFO | Banking policy collection initialized.
+2026-10-04 15:43:40,603 | INFO | HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+2026-10-04 15:43:40,608 | WARNING | Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+2026-10-04 15:43:40,626 | INFO | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/modules.json?%2Fsentence-transformers%2Fall-MiniLM-L6-v2%2Fresolve%2Fmain%2Fmodules.json=&etag=%22952a9b81c0bfd99800fabf352f69c7ccd46c5e43%22 "HTTP/1.1 200 OK"
+2026-10-04 15:43:40,882 | INFO | HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json "HTTP/1.1 307 Temporary Redirect"
+2026-10-04 15:43:40,897 | INFO | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/config_sentence_transformers.json?%2Fsentence-transformers%2Fall-MiniLM-L6-v2%2Fresolve%2Fmain%2Fconfig_sentence_transformers.json=&etag=%22fd1b291129c607e5d49799f87cb219b27f98acdf%22 "HTTP/1.1 200 OK"
+2026-10-04 15:43:40,923 | INFO | Loading SentenceTransformer model from sentence-transformers/all-MiniLM-L6-v2.
+2026-10-04 15:43:41,158 | INFO | HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json "HTTP/1.1 307 Temporary Redirect"
+2026-10-04 15:43:41,177 | INFO | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/config_sentence_transformers.json?%2Fsentence-transformers%2Fall-MiniLM-L6-v2%2Fresolve%2Fmain%2Fconfig_sentence_transformers.json=&etag=%22fd1b291129c607e5d49799f87cb219b27f98acdf%22 "HTTP/1.1 200 OK"
+2026-10-04 15:43:41,408 | INFO | HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-10-04 15:43:41,436 | INFO | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/README.md?%2Fsentence-transformers%2Fall-MiniLM-L6-v2%2Fresolve%2Fmain%2FREADME.md=&etag=%2244af2e3b0fa3a0b6239e48422972bf755f28fde0%22 "HTTP/1.1 200 OK"
+2026-10-04 15:43:41,713 | INFO | HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+2026-10-04 15:43:41,754 | INFO | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/modules.json?%2Fsentence-transformers%2Fall-MiniLM-L6-v2%2Fresolve%2Fmain%2Fmodules.json=&etag=%22952a9b81c0bfd99800fabf352f69c7ccd46c5e43%22 "HTTP/1.1 200 OK"
+2026-10-04 15:43:42,014 | INFO | HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/sentence_bert_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-10-04 15:43:42,031 | INFO | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/sentence_bert_config.json?%2Fsentence-transformers%2Fall-MiniLM-L6-v2%2Fresolve%2Fmain%2Fsentence_bert_config.json=&etag=%2259d594003bf59880a884c574bf88ef7555bb0202%22 "HTTP/1.1 200 OK"
+2026-10-04 15:43:42,287 | INFO | HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/adapter_config.json "HTTP/1.1 404 Not Found"
+2026-10-04 15:43:42,527 | INFO | HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2 "HTTP/1.1 200 OK"
+2026-10-04 15:43:42,799 | INFO | HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2 "HTTP/1.1 200 OK"
+2026-10-04 15:43:43,917 | INFO | HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2 "HTTP/1.1 200 OK"
+2026-10-04 15:43:44,197 | INFO | HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+2026-10-04 15:43:44,439 | INFO | HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-10-04 15:43:44,846 | INFO | HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/1_Pooling/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-10-04 15:43:44,863 | INFO | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/1_Pooling%2Fconfig.json?%2Fsentence-transformers%2Fall-MiniLM-L6-v2%2Fresolve%2Fmain%2F1_Pooling%2Fconfig.json=&etag=%22d1514c3162bbe87b343f565fadc62e6c06f04f03%22 "HTTP/1.1 200 OK"
+2026-10-04 15:43:45,148 | INFO | HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/2_Normalize/config.json "HTTP/1.1 404 Not Found"
+2026-10-04 15:43:45,386 | INFO | HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2 "HTTP/1.1 200 OK"
+2026-10-04 15:43:47,961 | INFO | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2026-10-04 15:43:47,962 | ERROR | LLM call failed for query: What is the Gold Card annual fee?
+Traceback (most recent call last):
+  File "c:\Users\SARITHAMR\Saritha_Capstone\task_4_embeddings_retrieval\rag_pipeline_agentic.py", line 381, in generate_response
+    response = self.client.chat.completions.create(
+        model=self.model,
+    ...<6 lines>...
+        temperature=0,
+    )
+  File "C:\Users\SARITHAMR\AppData\Local\Programs\Python\Python313\Lib\site-packages\openai\_utils\_utils.py", line 298, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\SARITHAMR\AppData\Local\Programs\Python\Python313\Lib\site-packages\openai\resources\chat\completions\completions.py", line 1318, in create
+    return self._post(
+           ~~~~~~~~~~^
+        "/chat/completions",
+        ^^^^^^^^^^^^^^^^^^^^
+    ...<53 lines>...
+        stream_cls=Stream[ChatCompletionChunk],
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\SARITHAMR\AppData\Local\Programs\Python\Python313\Lib\site-packages\openai\_base_client.py", line 1439, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+                           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\SARITHAMR\AppData\Local\Programs\Python\Python313\Lib\site-packages\openai\_base_client.py", line 1212, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.AuthenticationError: Error code: 401 - {'error': {'message': 'Incorrect API key provided: voc-1082**************************************7945. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2026-10-04 15:43:48,418 | INFO | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2026-10-04 15:43:48,419 | ERROR | LLM call failed for query: What is the Gold Card annual fee?
+Traceback (most recent call last):
+  File "c:\Users\SARITHAMR\Saritha_Capstone\task_4_embeddings_retrieval\rag_pipeline_agentic.py", line 381, in generate_response
+    response = self.client.chat.completions.create(
+        model=self.model,
+    ...<6 lines>...
+        temperature=0,
+    )
+  File "C:\Users\SARITHAMR\AppData\Local\Programs\Python\Python313\Lib\site-packages\openai\_utils\_utils.py", line 298, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\SARITHAMR\AppData\Local\Programs\Python\Python313\Lib\site-packages\openai\resources\chat\completions\completions.py", line 1318, in create
+    return self._post(
+           ~~~~~~~~~~^
+        "/chat/completions",
+        ^^^^^^^^^^^^^^^^^^^^
+    ...<53 lines>...
+        stream_cls=Stream[ChatCompletionChunk],
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\SARITHAMR\AppData\Local\Programs\Python\Python313\Lib\site-packages\openai\_base_client.py", line 1439, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+                           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\SARITHAMR\AppData\Local\Programs\Python\Python313\Lib\site-packages\openai\_base_client.py", line 1212, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.AuthenticationError: Error code: 401 - {'error': {'message': 'Incorrect API key provided: voc-1082**************************************7945. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2026-10-04 15:43:48,728 | INFO | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2026-10-04 15:43:48,729 | ERROR | LLM call failed for query: What is the Gold Card annual fee?
+Traceback (most recent call last):
+  File "c:\Users\SARITHAMR\Saritha_Capstone\task_4_embeddings_retrieval\rag_pipeline_agentic.py", line 381, in generate_response
+    response = self.client.chat.completions.create(
+        model=self.model,
+    ...<6 lines>...
+        temperature=0,
+    )
+  File "C:\Users\SARITHAMR\AppData\Local\Programs\Python\Python313\Lib\site-packages\openai\_utils\_utils.py", line 298, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\SARITHAMR\AppData\Local\Programs\Python\Python313\Lib\site-packages\openai\resources\chat\completions\completions.py", line 1318, in create
+    return self._post(
+           ~~~~~~~~~~^
+        "/chat/completions",
+        ^^^^^^^^^^^^^^^^^^^^
+    ...<53 lines>...
+        stream_cls=Stream[ChatCompletionChunk],
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\SARITHAMR\AppData\Local\Programs\Python\Python313\Lib\site-packages\openai\_base_client.py", line 1439, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+                           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\SARITHAMR\AppData\Local\Programs\Python\Python313\Lib\site-packages\openai\_base_client.py", line 1212, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.AuthenticationError: Error code: 401 - {'error': {'message': 'Incorrect API key provided: voc-1082**************************************7945. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2026-10-04 15:43:49,071 | INFO | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2026-10-04 15:43:49,071 | ERROR | LLM call failed for query: What is the maximum daily withdrawal for a student account?
+Traceback (most recent call last):
+  File "c:\Users\SARITHAMR\Saritha_Capstone\task_4_embeddings_retrieval\rag_pipeline_agentic.py", line 381, in generate_response
+    response = self.client.chat.completions.create(
+        model=self.model,
+    ...<6 lines>...
+        temperature=0,
+    )
+  File "C:\Users\SARITHAMR\AppData\Local\Programs\Python\Python313\Lib\site-packages\openai\_utils\_utils.py", line 298, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\SARITHAMR\AppData\Local\Programs\Python\Python313\Lib\site-packages\openai\resources\chat\completions\completions.py", line 1318, in create
+    return self._post(
+           ~~~~~~~~~~^
+        "/chat/completions",
+        ^^^^^^^^^^^^^^^^^^^^
+    ...<53 lines>...
+        stream_cls=Stream[ChatCompletionChunk],
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\SARITHAMR\AppData\Local\Programs\Python\Python313\Lib\site-packages\openai\_base_client.py", line 1439, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+                           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\SARITHAMR\AppData\Local\Programs\Python\Python313\Lib\site-packages\openai\_base_client.py", line 1212, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.AuthenticationError: Error code: 401 - {'error': {'message': 'Incorrect API key provided: voc-1082**************************************7945. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2026-10-04 15:43:49,476 | INFO | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2026-10-04 15:43:49,478 | ERROR | LLM call failed for query: What is the maximum daily withdrawal for a student account?
+Traceback (most recent call last):
+  File "c:\Users\SARITHAMR\Saritha_Capstone\task_4_embeddings_retrieval\rag_pipeline_agentic.py", line 381, in generate_response
+    response = self.client.chat.completions.create(
+        model=self.model,
+    ...<6 lines>...
+        temperature=0,
+    )
+  File "C:\Users\SARITHAMR\AppData\Local\Programs\Python\Python313\Lib\site-packages\openai\_utils\_utils.py", line 298, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\SARITHAMR\AppData\Local\Programs\Python\Python313\Lib\site-packages\openai\resources\chat\completions\completions.py", line 1318, in create
+    return self._post(
+           ~~~~~~~~~~^
+        "/chat/completions",
+        ^^^^^^^^^^^^^^^^^^^^
+    ...<53 lines>...
+        stream_cls=Stream[ChatCompletionChunk],
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\SARITHAMR\AppData\Local\Programs\Python\Python313\Lib\site-packages\openai\_base_client.py", line 1439, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+                           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\SARITHAMR\AppData\Local\Programs\Python\Python313\Lib\site-packages\openai\_base_client.py", line 1212, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.AuthenticationError: Error code: 401 - {'error': {'message': 'Incorrect API key provided: voc-1082**************************************7945. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2026-10-04 15:43:49,812 | INFO | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2026-10-04 15:43:49,813 | ERROR | LLM call failed for query: What is the maximum daily withdrawal for a student account?
+Traceback (most recent call last):
+  File "c:\Users\SARITHAMR\Saritha_Capstone\task_4_embeddings_retrieval\rag_pipeline_agentic.py", line 381, in generate_response
+    response = self.client.chat.completions.create(
+        model=self.model,
+    ...<6 lines>...
+        temperature=0,
+    )
+  File "C:\Users\SARITHAMR\AppData\Local\Programs\Python\Python313\Lib\site-packages\openai\_utils\_utils.py", line 298, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\SARITHAMR\AppData\Local\Programs\Python\Python313\Lib\site-packages\openai\resources\chat\completions\completions.py", line 1318, in create
+    return self._post(
+           ~~~~~~~~~~^
+        "/chat/completions",
+        ^^^^^^^^^^^^^^^^^^^^
+    ...<53 lines>...
+        stream_cls=Stream[ChatCompletionChunk],
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\SARITHAMR\AppData\Local\Programs\Python\Python313\Lib\site-packages\openai\_base_client.py", line 1439, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+                           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\SARITHAMR\AppData\Local\Programs\Python\Python313\Lib\site-packages\openai\_base_client.py", line 1212, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.AuthenticationError: Error code: 401 - {'error': {'message': 'Incorrect API key provided: voc-1082**************************************7945. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2026-10-04 15:43:50,161 | INFO | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2026-10-04 15:43:50,162 | ERROR | LLM call failed for query: What is today's stock market price for Apple?
+Traceback (most recent call last):
+  File "c:\Users\SARITHAMR\Saritha_Capstone\task_4_embeddings_retrieval\rag_pipeline_agentic.py", line 381, in generate_response
+    response = self.client.chat.completions.create(
+        model=self.model,
+    ...<6 lines>...
+        temperature=0,
+    )
+  File "C:\Users\SARITHAMR\AppData\Local\Programs\Python\Python313\Lib\site-packages\openai\_utils\_utils.py", line 298, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\SARITHAMR\AppData\Local\Programs\Python\Python313\Lib\site-packages\openai\resources\chat\completions\completions.py", line 1318, in create
+    return self._post(
+           ~~~~~~~~~~^
+        "/chat/completions",
+        ^^^^^^^^^^^^^^^^^^^^
+    ...<53 lines>...
+        stream_cls=Stream[ChatCompletionChunk],
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\SARITHAMR\AppData\Local\Programs\Python\Python313\Lib\site-packages\openai\_base_client.py", line 1439, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+                           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\SARITHAMR\AppData\Local\Programs\Python\Python313\Lib\site-packages\openai\_base_client.py", line 1212, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.AuthenticationError: Error code: 401 - {'error': {'message': 'Incorrect API key provided: voc-1082**************************************7945. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2026-10-04 15:43:50,502 | INFO | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2026-10-04 15:43:50,504 | ERROR | LLM call failed for query: Is my account eligible for a loan?
+Traceback (most recent call last):
+  File "c:\Users\SARITHAMR\Saritha_Capstone\task_4_embeddings_retrieval\rag_pipeline_agentic.py", line 381, in generate_response
+    response = self.client.chat.completions.create(
+        model=self.model,
+    ...<6 lines>...
+        temperature=0,
+    )
+  File "C:\Users\SARITHAMR\AppData\Local\Programs\Python\Python313\Lib\site-packages\openai\_utils\_utils.py", line 298, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\SARITHAMR\AppData\Local\Programs\Python\Python313\Lib\site-packages\openai\resources\chat\completions\completions.py", line 1318, in create
+    return self._post(
+           ~~~~~~~~~~^
+        "/chat/completions",
+        ^^^^^^^^^^^^^^^^^^^^
+    ...<53 lines>...
+        stream_cls=Stream[ChatCompletionChunk],
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\SARITHAMR\AppData\Local\Programs\Python\Python313\Lib\site-packages\openai\_base_client.py", line 1439, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+                           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\SARITHAMR\AppData\Local\Programs\Python\Python313\Lib\site-packages\openai\_base_client.py", line 1212, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.AuthenticationError: Error code: 401 - {'error': {'message': 'Incorrect API key provided: voc-1082**************************************7945. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2026-10-04 15:43:50,825 | INFO | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2026-10-04 15:43:50,827 | ERROR | LLM call failed for query: I see a transaction I don't recognize. Can you reverse it?
+Traceback (most recent call last):
+  File "c:\Users\SARITHAMR\Saritha_Capstone\task_4_embeddings_retrieval\rag_pipeline_agentic.py", line 381, in generate_response
+    response = self.client.chat.completions.create(
+        model=self.model,
+    ...<6 lines>...
+        temperature=0,
+    )
+  File "C:\Users\SARITHAMR\AppData\Local\Programs\Python\Python313\Lib\site-packages\openai\_utils\_utils.py", line 298, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\SARITHAMR\AppData\Local\Programs\Python\Python313\Lib\site-packages\openai\resources\chat\completions\completions.py", line 1318, in create
+    return self._post(
+           ~~~~~~~~~~^
+        "/chat/completions",
+        ^^^^^^^^^^^^^^^^^^^^
+    ...<53 lines>...
+        stream_cls=Stream[ChatCompletionChunk],
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\SARITHAMR\AppData\Local\Programs\Python\Python313\Lib\site-packages\openai\_base_client.py", line 1439, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+                           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\SARITHAMR\AppData\Local\Programs\Python\Python313\Lib\site-packages\openai\_base_client.py", line 1212, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.AuthenticationError: Error code: 401 - {'error': {'message': 'Incorrect API key provided: voc-1082**************************************7945. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2026-10-04 15:43:51,164 | INFO | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2026-10-04 15:43:51,164 | ERROR | LLM call failed for query: What is the Gold Card annual fee and can you also tell me whether I am eligible for a personal loan?
+Traceback (most recent call last):
+  File "c:\Users\SARITHAMR\Saritha_Capstone\task_4_embeddings_retrieval\rag_pipeline_agentic.py", line 381, in generate_response
+    response = self.client.chat.completions.create(
+        model=self.model,
+    ...<6 lines>...
+        temperature=0,
+    )
+  File "C:\Users\SARITHAMR\AppData\Local\Programs\Python\Python313\Lib\site-packages\openai\_utils\_utils.py", line 298, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\SARITHAMR\AppData\Local\Programs\Python\Python313\Lib\site-packages\openai\resources\chat\completions\completions.py", line 1318, in create
+    return self._post(
+           ~~~~~~~~~~^
+        "/chat/completions",
+        ^^^^^^^^^^^^^^^^^^^^
+    ...<53 lines>...
+        stream_cls=Stream[ChatCompletionChunk],
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\SARITHAMR\AppData\Local\Programs\Python\Python313\Lib\site-packages\openai\_base_client.py", line 1439, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+                           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\SARITHAMR\AppData\Local\Programs\Python\Python313\Lib\site-packages\openai\_base_client.py", line 1212, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.AuthenticationError: Error code: 401 - {'error': {'message': 'Incorrect API key provided: voc-1082**************************************7945. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2026-10-04 15:44:19,863 | INFO | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2026-10-04 15:44:19,864 | ERROR | LLM call failed for query: What is the fee for gold card
+Traceback (most recent call last):
+  File "c:\Users\SARITHAMR\Saritha_Capstone\task_4_embeddings_retrieval\rag_pipeline_agentic.py", line 381, in generate_response
+    response = self.client.chat.completions.create(
+        model=self.model,
+    ...<6 lines>...
+        temperature=0,
+    )
+  File "C:\Users\SARITHAMR\AppData\Local\Programs\Python\Python313\Lib\site-packages\openai\_utils\_utils.py", line 298, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\SARITHAMR\AppData\Local\Programs\Python\Python313\Lib\site-packages\openai\resources\chat\completions\completions.py", line 1318, in create
+    return self._post(
+           ~~~~~~~~~~^
+        "/chat/completions",
+        ^^^^^^^^^^^^^^^^^^^^
+    ...<53 lines>...
+        stream_cls=Stream[ChatCompletionChunk],
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\SARITHAMR\AppData\Local\Programs\Python\Python313\Lib\site-packages\openai\_base_client.py", line 1439, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+                           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\SARITHAMR\AppData\Local\Programs\Python\Python313\Lib\site-packages\openai\_base_client.py", line 1212, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.AuthenticationError: Error code: 401 - {'error': {'message': 'Incorrect API key provided: voc-1082**************************************7945. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2026-10-04 16:02:18,191 | INFO | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2026-10-04 16:02:18,192 | ERROR | LLM call failed for query: exi
+Traceback (most recent call last):
+  File "c:\Users\SARITHAMR\Saritha_Capstone\task_4_embeddings_retrieval\rag_pipeline_agentic.py", line 381, in generate_response
+    response = self.client.chat.completions.create(
+        model=self.model,
+    ...<6 lines>...
+        temperature=0,
+    )
+  File "C:\Users\SARITHAMR\AppData\Local\Programs\Python\Python313\Lib\site-packages\openai\_utils\_utils.py", line 298, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\SARITHAMR\AppData\Local\Programs\Python\Python313\Lib\site-packages\openai\resources\chat\completions\completions.py", line 1318, in create
+    return self._post(
+           ~~~~~~~~~~^
+        "/chat/completions",
+        ^^^^^^^^^^^^^^^^^^^^
+    ...<53 lines>...
+        stream_cls=Stream[ChatCompletionChunk],
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\SARITHAMR\AppData\Local\Programs\Python\Python313\Lib\site-packages\openai\_base_client.py", line 1439, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+                           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\SARITHAMR\AppData\Local\Programs\Python\Python313\Lib\site-packages\openai\_base_client.py", line 1212, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.AuthenticationError: Error code: 401 - {'error': {'message': 'Incorrect API key provided: voc-1082**************************************7945. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2026-10-04 16:06:55,648 | INFO | HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+2026-10-04 16:06:55,667 | INFO | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/modules.json?%2Fsentence-transformers%2Fall-MiniLM-L6-v2%2Fresolve%2Fmain%2Fmodules.json=&etag=%22952a9b81c0bfd99800fabf352f69c7ccd46c5e43%22 "HTTP/1.1 200 OK"
+2026-10-04 16:06:55,909 | INFO | HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json "HTTP/1.1 307 Temporary Redirect"
+2026-10-04 16:06:55,927 | INFO | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/config_sentence_transformers.json?%2Fsentence-transformers%2Fall-MiniLM-L6-v2%2Fresolve%2Fmain%2Fconfig_sentence_transformers.json=&etag=%22fd1b291129c607e5d49799f87cb219b27f98acdf%22 "HTTP/1.1 200 OK"
+2026-10-04 16:06:55,935 | INFO | Loading SentenceTransformer model from sentence-transformers/all-MiniLM-L6-v2.
+2026-10-04 16:06:56,168 | INFO | HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json "HTTP/1.1 307 Temporary Redirect"
+2026-10-04 16:06:56,188 | INFO | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/config_sentence_transformers.json?%2Fsentence-transformers%2Fall-MiniLM-L6-v2%2Fresolve%2Fmain%2Fconfig_sentence_transformers.json=&etag=%22fd1b291129c607e5d49799f87cb219b27f98acdf%22 "HTTP/1.1 200 OK"
+2026-10-04 16:06:56,421 | INFO | HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-10-04 16:06:56,438 | INFO | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/README.md?%2Fsentence-transformers%2Fall-MiniLM-L6-v2%2Fresolve%2Fmain%2FREADME.md=&etag=%2244af2e3b0fa3a0b6239e48422972bf755f28fde0%22 "HTTP/1.1 200 OK"
+2026-10-04 16:06:56,693 | INFO | HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+2026-10-04 16:06:56,710 | INFO | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/modules.json?%2Fsentence-transformers%2Fall-MiniLM-L6-v2%2Fresolve%2Fmain%2Fmodules.json=&etag=%22952a9b81c0bfd99800fabf352f69c7ccd46c5e43%22 "HTTP/1.1 200 OK"
+2026-10-04 16:06:56,960 | INFO | HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/sentence_bert_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-10-04 16:06:56,960 | WARNING | Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+2026-10-04 16:06:56,976 | INFO | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/sentence_bert_config.json?%2Fsentence-transformers%2Fall-MiniLM-L6-v2%2Fresolve%2Fmain%2Fsentence_bert_config.json=&etag=%2259d594003bf59880a884c574bf88ef7555bb0202%22 "HTTP/1.1 200 OK"
+2026-10-04 16:06:57,218 | INFO | HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/adapter_config.json "HTTP/1.1 404 Not Found"
+2026-10-04 16:06:57,456 | INFO | HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2 "HTTP/1.1 200 OK"
+2026-10-04 16:06:57,714 | INFO | HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2 "HTTP/1.1 200 OK"
+2026-10-04 16:06:58,315 | INFO | HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2 "HTTP/1.1 200 OK"
+2026-10-04 16:06:58,568 | INFO | HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+2026-10-04 16:06:58,806 | INFO | HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-10-04 16:06:59,222 | INFO | HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/1_Pooling/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-10-04 16:06:59,243 | INFO | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/1_Pooling%2Fconfig.json?%2Fsentence-transformers%2Fall-MiniLM-L6-v2%2Fresolve%2Fmain%2F1_Pooling%2Fconfig.json=&etag=%22d1514c3162bbe87b343f565fadc62e6c06f04f03%22 "HTTP/1.1 200 OK"
+2026-10-04 16:06:59,483 | INFO | HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/2_Normalize/config.json "HTTP/1.1 404 Not Found"
+2026-10-04 16:06:59,726 | INFO | HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2 "HTTP/1.1 200 OK"
+2026-10-04 16:07:00,989 | INFO | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2026-10-04 16:07:00,990 | ERROR | LLM call failed for query: What is the Gold Card annual fee?
+Traceback (most recent call last):
+  File "c:\Users\SARITHAMR\Saritha_Capstone\task_4_embeddings_retrieval\rag_pipeline_agentic.py", line 381, in generate_response
+    response = self.client.chat.completions.create(
+        model=self.model,
+    ...<6 lines>...
+        temperature=0,
+    )
+  File "C:\Users\SARITHAMR\AppData\Local\Programs\Python\Python313\Lib\site-packages\openai\_utils\_utils.py", line 298, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\SARITHAMR\AppData\Local\Programs\Python\Python313\Lib\site-packages\openai\resources\chat\completions\completions.py", line 1318, in create
+    return self._post(
+           ~~~~~~~~~~^
+        "/chat/completions",
+        ^^^^^^^^^^^^^^^^^^^^
+    ...<53 lines>...
+        stream_cls=Stream[ChatCompletionChunk],
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\SARITHAMR\AppData\Local\Programs\Python\Python313\Lib\site-packages\openai\_base_client.py", line 1439, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+                           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\SARITHAMR\AppData\Local\Programs\Python\Python313\Lib\site-packages\openai\_base_client.py", line 1212, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.AuthenticationError: Error code: 401 - {'error': {'message': 'Incorrect API key provided: voc-1082**************************************7945. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2026-10-04 16:07:01,330 | INFO | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2026-10-04 16:07:01,332 | ERROR | LLM call failed for query: What is the Gold Card annual fee?
+Traceback (most recent call last):
+  File "c:\Users\SARITHAMR\Saritha_Capstone\task_4_embeddings_retrieval\rag_pipeline_agentic.py", line 381, in generate_response
+    response = self.client.chat.completions.create(
+        model=self.model,
+    ...<6 lines>...
+        temperature=0,
+    )
+  File "C:\Users\SARITHAMR\AppData\Local\Programs\Python\Python313\Lib\site-packages\openai\_utils\_utils.py", line 298, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\SARITHAMR\AppData\Local\Programs\Python\Python313\Lib\site-packages\openai\resources\chat\completions\completions.py", line 1318, in create
+    return self._post(
+           ~~~~~~~~~~^
+        "/chat/completions",
+        ^^^^^^^^^^^^^^^^^^^^
+    ...<53 lines>...
+        stream_cls=Stream[ChatCompletionChunk],
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\SARITHAMR\AppData\Local\Programs\Python\Python313\Lib\site-packages\openai\_base_client.py", line 1439, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+                           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\SARITHAMR\AppData\Local\Programs\Python\Python313\Lib\site-packages\openai\_base_client.py", line 1212, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.AuthenticationError: Error code: 401 - {'error': {'message': 'Incorrect API key provided: voc-1082**************************************7945. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2026-10-04 16:07:01,637 | INFO | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2026-10-04 16:07:01,638 | ERROR | LLM call failed for query: What is the Gold Card annual fee?
+Traceback (most recent call last):
+  File "c:\Users\SARITHAMR\Saritha_Capstone\task_4_embeddings_retrieval\rag_pipeline_agentic.py", line 381, in generate_response
+    response = self.client.chat.completions.create(
+        model=self.model,
+    ...<6 lines>...
+        temperature=0,
+    )
+  File "C:\Users\SARITHAMR\AppData\Local\Programs\Python\Python313\Lib\site-packages\openai\_utils\_utils.py", line 298, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\SARITHAMR\AppData\Local\Programs\Python\Python313\Lib\site-packages\openai\resources\chat\completions\completions.py", line 1318, in create
+    return self._post(
+           ~~~~~~~~~~^
+        "/chat/completions",
+        ^^^^^^^^^^^^^^^^^^^^
+    ...<53 lines>...
+        stream_cls=Stream[ChatCompletionChunk],
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\SARITHAMR\AppData\Local\Programs\Python\Python313\Lib\site-packages\openai\_base_client.py", line 1439, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+                           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\SARITHAMR\AppData\Local\Programs\Python\Python313\Lib\site-packages\openai\_base_client.py", line 1212, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.AuthenticationError: Error code: 401 - {'error': {'message': 'Incorrect API key provided: voc-1082**************************************7945. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2026-10-04 16:07:01,958 | INFO | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2026-10-04 16:07:01,959 | ERROR | LLM call failed for query: What is the maximum daily withdrawal for a student account?
+Traceback (most recent call last):
+  File "c:\Users\SARITHAMR\Saritha_Capstone\task_4_embeddings_retrieval\rag_pipeline_agentic.py", line 381, in generate_response
+    response = self.client.chat.completions.create(
+        model=self.model,
+    ...<6 lines>...
+        temperature=0,
+    )
+  File "C:\Users\SARITHAMR\AppData\Local\Programs\Python\Python313\Lib\site-packages\openai\_utils\_utils.py", line 298, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\SARITHAMR\AppData\Local\Programs\Python\Python313\Lib\site-packages\openai\resources\chat\completions\completions.py", line 1318, in create
+    return self._post(
+           ~~~~~~~~~~^
+        "/chat/completions",
+        ^^^^^^^^^^^^^^^^^^^^
+    ...<53 lines>...
+        stream_cls=Stream[ChatCompletionChunk],
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\SARITHAMR\AppData\Local\Programs\Python\Python313\Lib\site-packages\openai\_base_client.py", line 1439, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+                           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\SARITHAMR\AppData\Local\Programs\Python\Python313\Lib\site-packages\openai\_base_client.py", line 1212, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.AuthenticationError: Error code: 401 - {'error': {'message': 'Incorrect API key provided: voc-1082**************************************7945. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2026-10-04 16:07:02,255 | INFO | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2026-10-04 16:07:02,255 | ERROR | LLM call failed for query: What is the maximum daily withdrawal for a student account?
+Traceback (most recent call last):
+  File "c:\Users\SARITHAMR\Saritha_Capstone\task_4_embeddings_retrieval\rag_pipeline_agentic.py", line 381, in generate_response
+    response = self.client.chat.completions.create(
+        model=self.model,
+    ...<6 lines>...
+        temperature=0,
+    )
+  File "C:\Users\SARITHAMR\AppData\Local\Programs\Python\Python313\Lib\site-packages\openai\_utils\_utils.py", line 298, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\SARITHAMR\AppData\Local\Programs\Python\Python313\Lib\site-packages\openai\resources\chat\completions\completions.py", line 1318, in create
+    return self._post(
+           ~~~~~~~~~~^
+        "/chat/completions",
+        ^^^^^^^^^^^^^^^^^^^^
+    ...<53 lines>...
+        stream_cls=Stream[ChatCompletionChunk],
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\SARITHAMR\AppData\Local\Programs\Python\Python313\Lib\site-packages\openai\_base_client.py", line 1439, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+                           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\SARITHAMR\AppData\Local\Programs\Python\Python313\Lib\site-packages\openai\_base_client.py", line 1212, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.AuthenticationError: Error code: 401 - {'error': {'message': 'Incorrect API key provided: voc-1082**************************************7945. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2026-10-04 16:07:02,559 | INFO | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2026-10-04 16:07:02,560 | ERROR | LLM call failed for query: What is the maximum daily withdrawal for a student account?
+Traceback (most recent call last):
+  File "c:\Users\SARITHAMR\Saritha_Capstone\task_4_embeddings_retrieval\rag_pipeline_agentic.py", line 381, in generate_response
+    response = self.client.chat.completions.create(
+        model=self.model,
+    ...<6 lines>...
+        temperature=0,
+    )
+  File "C:\Users\SARITHAMR\AppData\Local\Programs\Python\Python313\Lib\site-packages\openai\_utils\_utils.py", line 298, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\SARITHAMR\AppData\Local\Programs\Python\Python313\Lib\site-packages\openai\resources\chat\completions\completions.py", line 1318, in create
+    return self._post(
+           ~~~~~~~~~~^
+        "/chat/completions",
+        ^^^^^^^^^^^^^^^^^^^^
+    ...<53 lines>...
+        stream_cls=Stream[ChatCompletionChunk],
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\SARITHAMR\AppData\Local\Programs\Python\Python313\Lib\site-packages\openai\_base_client.py", line 1439, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+                           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\SARITHAMR\AppData\Local\Programs\Python\Python313\Lib\site-packages\openai\_base_client.py", line 1212, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.AuthenticationError: Error code: 401 - {'error': {'message': 'Incorrect API key provided: voc-1082**************************************7945. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2026-10-04 16:07:02,856 | INFO | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2026-10-04 16:07:02,857 | ERROR | LLM call failed for query: What is today's stock market price for Apple?
+Traceback (most recent call last):
+  File "c:\Users\SARITHAMR\Saritha_Capstone\task_4_embeddings_retrieval\rag_pipeline_agentic.py", line 381, in generate_response
+    response = self.client.chat.completions.create(
+        model=self.model,
+    ...<6 lines>...
+        temperature=0,
+    )
+  File "C:\Users\SARITHAMR\AppData\Local\Programs\Python\Python313\Lib\site-packages\openai\_utils\_utils.py", line 298, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\SARITHAMR\AppData\Local\Programs\Python\Python313\Lib\site-packages\openai\resources\chat\completions\completions.py", line 1318, in create
+    return self._post(
+           ~~~~~~~~~~^
+        "/chat/completions",
+        ^^^^^^^^^^^^^^^^^^^^
+    ...<53 lines>...
+        stream_cls=Stream[ChatCompletionChunk],
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\SARITHAMR\AppData\Local\Programs\Python\Python313\Lib\site-packages\openai\_base_client.py", line 1439, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+                           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\SARITHAMR\AppData\Local\Programs\Python\Python313\Lib\site-packages\openai\_base_client.py", line 1212, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.AuthenticationError: Error code: 401 - {'error': {'message': 'Incorrect API key provided: voc-1082**************************************7945. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2026-10-04 16:07:03,150 | INFO | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2026-10-04 16:07:03,151 | ERROR | LLM call failed for query: Is my account eligible for a loan?
+Traceback (most recent call last):
+  File "c:\Users\SARITHAMR\Saritha_Capstone\task_4_embeddings_retrieval\rag_pipeline_agentic.py", line 381, in generate_response
+    response = self.client.chat.completions.create(
+        model=self.model,
+    ...<6 lines>...
+        temperature=0,
+    )
+  File "C:\Users\SARITHAMR\AppData\Local\Programs\Python\Python313\Lib\site-packages\openai\_utils\_utils.py", line 298, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\SARITHAMR\AppData\Local\Programs\Python\Python313\Lib\site-packages\openai\resources\chat\completions\completions.py", line 1318, in create
+    return self._post(
+           ~~~~~~~~~~^
+        "/chat/completions",
+        ^^^^^^^^^^^^^^^^^^^^
+    ...<53 lines>...
+        stream_cls=Stream[ChatCompletionChunk],
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\SARITHAMR\AppData\Local\Programs\Python\Python313\Lib\site-packages\openai\_base_client.py", line 1439, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+                           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\SARITHAMR\AppData\Local\Programs\Python\Python313\Lib\site-packages\openai\_base_client.py", line 1212, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.AuthenticationError: Error code: 401 - {'error': {'message': 'Incorrect API key provided: voc-1082**************************************7945. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2026-10-04 16:07:03,458 | INFO | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2026-10-04 16:07:03,459 | ERROR | LLM call failed for query: I see a transaction I don't recognize. Can you reverse it?
+Traceback (most recent call last):
+  File "c:\Users\SARITHAMR\Saritha_Capstone\task_4_embeddings_retrieval\rag_pipeline_agentic.py", line 381, in generate_response
+    response = self.client.chat.completions.create(
+        model=self.model,
+    ...<6 lines>...
+        temperature=0,
+    )
+  File "C:\Users\SARITHAMR\AppData\Local\Programs\Python\Python313\Lib\site-packages\openai\_utils\_utils.py", line 298, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\SARITHAMR\AppData\Local\Programs\Python\Python313\Lib\site-packages\openai\resources\chat\completions\completions.py", line 1318, in create
+    return self._post(
+           ~~~~~~~~~~^
+        "/chat/completions",
+        ^^^^^^^^^^^^^^^^^^^^
+    ...<53 lines>...
+        stream_cls=Stream[ChatCompletionChunk],
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\SARITHAMR\AppData\Local\Programs\Python\Python313\Lib\site-packages\openai\_base_client.py", line 1439, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+                           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\SARITHAMR\AppData\Local\Programs\Python\Python313\Lib\site-packages\openai\_base_client.py", line 1212, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.AuthenticationError: Error code: 401 - {'error': {'message': 'Incorrect API key provided: voc-1082**************************************7945. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2026-10-04 16:07:03,745 | INFO | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2026-10-04 16:07:03,746 | ERROR | LLM call failed for query: What is the Gold Card annual fee and can you also tell me whether I am eligible for a personal loan?
+Traceback (most recent call last):
+  File "c:\Users\SARITHAMR\Saritha_Capstone\task_4_embeddings_retrieval\rag_pipeline_agentic.py", line 381, in generate_response
+    response = self.client.chat.completions.create(
+        model=self.model,
+    ...<6 lines>...
+        temperature=0,
+    )
+  File "C:\Users\SARITHAMR\AppData\Local\Programs\Python\Python313\Lib\site-packages\openai\_utils\_utils.py", line 298, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\SARITHAMR\AppData\Local\Programs\Python\Python313\Lib\site-packages\openai\resources\chat\completions\completions.py", line 1318, in create
+    return self._post(
+           ~~~~~~~~~~^
+        "/chat/completions",
+        ^^^^^^^^^^^^^^^^^^^^
+    ...<53 lines>...
+        stream_cls=Stream[ChatCompletionChunk],
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\SARITHAMR\AppData\Local\Programs\Python\Python313\Lib\site-packages\openai\_base_client.py", line 1439, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+                           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\SARITHAMR\AppData\Local\Programs\Python\Python313\Lib\site-packages\openai\_base_client.py", line 1212, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.AuthenticationError: Error code: 401 - {'error': {'message': 'Incorrect API key provided: voc-1082**************************************7945. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2026-10-04 16:07:25,926 | INFO | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2026-10-04 16:07:25,927 | ERROR | LLM call failed for query: how can we reset password
+Traceback (most recent call last):
+  File "c:\Users\SARITHAMR\Saritha_Capstone\task_4_embeddings_retrieval\rag_pipeline_agentic.py", line 381, in generate_response
+    response = self.client.chat.completions.create(
+        model=self.model,
+    ...<6 lines>...
+        temperature=0,
+    )
+  File "C:\Users\SARITHAMR\AppData\Local\Programs\Python\Python313\Lib\site-packages\openai\_utils\_utils.py", line 298, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\SARITHAMR\AppData\Local\Programs\Python\Python313\Lib\site-packages\openai\resources\chat\completions\completions.py", line 1318, in create
+    return self._post(
+           ~~~~~~~~~~^
+        "/chat/completions",
+        ^^^^^^^^^^^^^^^^^^^^
+    ...<53 lines>...
+        stream_cls=Stream[ChatCompletionChunk],
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\SARITHAMR\AppData\Local\Programs\Python\Python313\Lib\site-packages\openai\_base_client.py", line 1439, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+                           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\SARITHAMR\AppData\Local\Programs\Python\Python313\Lib\site-packages\openai\_base_client.py", line 1212, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.AuthenticationError: Error code: 401 - {'error': {'message': 'Incorrect API key provided: voc-1082**************************************7945. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2026-10-04 16:09:36,863 | INFO | HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+2026-10-04 16:09:36,885 | INFO | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/modules.json?%2Fsentence-transformers%2Fall-MiniLM-L6-v2%2Fresolve%2Fmain%2Fmodules.json=&etag=%22952a9b81c0bfd99800fabf352f69c7ccd46c5e43%22 "HTTP/1.1 200 OK"
+2026-10-04 16:09:37,126 | INFO | HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json "HTTP/1.1 307 Temporary Redirect"
+2026-10-04 16:09:37,126 | WARNING | Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+2026-10-04 16:09:37,141 | INFO | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/config_sentence_transformers.json?%2Fsentence-transformers%2Fall-MiniLM-L6-v2%2Fresolve%2Fmain%2Fconfig_sentence_transformers.json=&etag=%22fd1b291129c607e5d49799f87cb219b27f98acdf%22 "HTTP/1.1 200 OK"
+2026-10-04 16:09:37,142 | INFO | Loading SentenceTransformer model from sentence-transformers/all-MiniLM-L6-v2.
+2026-10-04 16:09:37,372 | INFO | HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json "HTTP/1.1 307 Temporary Redirect"
+2026-10-04 16:09:37,390 | INFO | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/config_sentence_transformers.json?%2Fsentence-transformers%2Fall-MiniLM-L6-v2%2Fresolve%2Fmain%2Fconfig_sentence_transformers.json=&etag=%22fd1b291129c607e5d49799f87cb219b27f98acdf%22 "HTTP/1.1 200 OK"
+2026-10-04 16:09:37,621 | INFO | HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-10-04 16:09:37,636 | INFO | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/README.md?%2Fsentence-transformers%2Fall-MiniLM-L6-v2%2Fresolve%2Fmain%2FREADME.md=&etag=%2244af2e3b0fa3a0b6239e48422972bf755f28fde0%22 "HTTP/1.1 200 OK"
+2026-10-04 16:09:37,865 | INFO | HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+2026-10-04 16:09:37,887 | INFO | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/modules.json?%2Fsentence-transformers%2Fall-MiniLM-L6-v2%2Fresolve%2Fmain%2Fmodules.json=&etag=%22952a9b81c0bfd99800fabf352f69c7ccd46c5e43%22 "HTTP/1.1 200 OK"
+2026-10-04 16:09:38,116 | INFO | HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/sentence_bert_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-10-04 16:09:38,132 | INFO | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/sentence_bert_config.json?%2Fsentence-transformers%2Fall-MiniLM-L6-v2%2Fresolve%2Fmain%2Fsentence_bert_config.json=&etag=%2259d594003bf59880a884c574bf88ef7555bb0202%22 "HTTP/1.1 200 OK"
+2026-10-04 16:09:38,364 | INFO | HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/adapter_config.json "HTTP/1.1 404 Not Found"
+2026-10-04 16:09:38,597 | INFO | HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2 "HTTP/1.1 200 OK"
+2026-10-04 16:09:38,839 | INFO | HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2 "HTTP/1.1 200 OK"
+2026-10-04 16:09:39,389 | INFO | HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2 "HTTP/1.1 200 OK"
+2026-10-04 16:09:39,629 | INFO | HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+2026-10-04 16:09:39,869 | INFO | HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-10-04 16:09:40,132 | INFO | HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/1_Pooling/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-10-04 16:09:40,149 | INFO | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/1_Pooling%2Fconfig.json?%2Fsentence-transformers%2Fall-MiniLM-L6-v2%2Fresolve%2Fmain%2F1_Pooling%2Fconfig.json=&etag=%22d1514c3162bbe87b343f565fadc62e6c06f04f03%22 "HTTP/1.1 200 OK"
+2026-10-04 16:09:40,382 | INFO | HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/2_Normalize/config.json "HTTP/1.1 404 Not Found"
+2026-10-04 16:09:40,617 | INFO | HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2 "HTTP/1.1 200 OK"
+2026-10-04 16:09:41,466 | INFO | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2026-10-04 16:09:41,467 | ERROR | LLM call failed for query: What is the Gold Card annual fee?
+Traceback (most recent call last):
+  File "c:\Users\SARITHAMR\Saritha_Capstone\task_4_embeddings_retrieval\rag_pipeline_agentic.py", line 381, in generate_response
+    response = self.client.chat.completions.create(
+        model=self.model,
+    ...<6 lines>...
+        temperature=0,
+    )
+  File "C:\Users\SARITHAMR\AppData\Local\Programs\Python\Python313\Lib\site-packages\openai\_utils\_utils.py", line 298, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\SARITHAMR\AppData\Local\Programs\Python\Python313\Lib\site-packages\openai\resources\chat\completions\completions.py", line 1318, in create
+    return self._post(
+           ~~~~~~~~~~^
+        "/chat/completions",
+        ^^^^^^^^^^^^^^^^^^^^
+    ...<53 lines>...
+        stream_cls=Stream[ChatCompletionChunk],
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\SARITHAMR\AppData\Local\Programs\Python\Python313\Lib\site-packages\openai\_base_client.py", line 1439, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+                           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\SARITHAMR\AppData\Local\Programs\Python\Python313\Lib\site-packages\openai\_base_client.py", line 1212, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.AuthenticationError: Error code: 401 - {'error': {'message': 'Incorrect API key provided: voc-1082**************************************7945. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2026-10-04 16:09:41,764 | INFO | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2026-10-04 16:09:41,764 | ERROR | LLM call failed for query: What is the Gold Card annual fee?
+Traceback (most recent call last):
+  File "c:\Users\SARITHAMR\Saritha_Capstone\task_4_embeddings_retrieval\rag_pipeline_agentic.py", line 381, in generate_response
+    response = self.client.chat.completions.create(
+        model=self.model,
+    ...<6 lines>...
+        temperature=0,
+    )
+  File "C:\Users\SARITHAMR\AppData\Local\Programs\Python\Python313\Lib\site-packages\openai\_utils\_utils.py", line 298, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\SARITHAMR\AppData\Local\Programs\Python\Python313\Lib\site-packages\openai\resources\chat\completions\completions.py", line 1318, in create
+    return self._post(
+           ~~~~~~~~~~^
+        "/chat/completions",
+        ^^^^^^^^^^^^^^^^^^^^
+    ...<53 lines>...
+        stream_cls=Stream[ChatCompletionChunk],
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\SARITHAMR\AppData\Local\Programs\Python\Python313\Lib\site-packages\openai\_base_client.py", line 1439, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+                           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\SARITHAMR\AppData\Local\Programs\Python\Python313\Lib\site-packages\openai\_base_client.py", line 1212, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.AuthenticationError: Error code: 401 - {'error': {'message': 'Incorrect API key provided: voc-1082**************************************7945. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2026-10-04 16:09:42,080 | INFO | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2026-10-04 16:09:42,081 | ERROR | LLM call failed for query: What is the Gold Card annual fee?
+Traceback (most recent call last):
+  File "c:\Users\SARITHAMR\Saritha_Capstone\task_4_embeddings_retrieval\rag_pipeline_agentic.py", line 381, in generate_response
+    response = self.client.chat.completions.create(
+        model=self.model,
+    ...<6 lines>...
+        temperature=0,
+    )
+  File "C:\Users\SARITHAMR\AppData\Local\Programs\Python\Python313\Lib\site-packages\openai\_utils\_utils.py", line 298, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\SARITHAMR\AppData\Local\Programs\Python\Python313\Lib\site-packages\openai\resources\chat\completions\completions.py", line 1318, in create
+    return self._post(
+           ~~~~~~~~~~^
+        "/chat/completions",
+        ^^^^^^^^^^^^^^^^^^^^
+    ...<53 lines>...
+        stream_cls=Stream[ChatCompletionChunk],
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\SARITHAMR\AppData\Local\Programs\Python\Python313\Lib\site-packages\openai\_base_client.py", line 1439, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+                           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\SARITHAMR\AppData\Local\Programs\Python\Python313\Lib\site-packages\openai\_base_client.py", line 1212, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.AuthenticationError: Error code: 401 - {'error': {'message': 'Incorrect API key provided: voc-1082**************************************7945. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2026-10-04 16:09:42,370 | INFO | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2026-10-04 16:09:42,370 | ERROR | LLM call failed for query: What is the maximum daily withdrawal for a student account?
+Traceback (most recent call last):
+  File "c:\Users\SARITHAMR\Saritha_Capstone\task_4_embeddings_retrieval\rag_pipeline_agentic.py", line 381, in generate_response
+    response = self.client.chat.completions.create(
+        model=self.model,
+    ...<6 lines>...
+        temperature=0,
+    )
+  File "C:\Users\SARITHAMR\AppData\Local\Programs\Python\Python313\Lib\site-packages\openai\_utils\_utils.py", line 298, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\SARITHAMR\AppData\Local\Programs\Python\Python313\Lib\site-packages\openai\resources\chat\completions\completions.py", line 1318, in create
+    return self._post(
+           ~~~~~~~~~~^
+        "/chat/completions",
+        ^^^^^^^^^^^^^^^^^^^^
+    ...<53 lines>...
+        stream_cls=Stream[ChatCompletionChunk],
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\SARITHAMR\AppData\Local\Programs\Python\Python313\Lib\site-packages\openai\_base_client.py", line 1439, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+                           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\SARITHAMR\AppData\Local\Programs\Python\Python313\Lib\site-packages\openai\_base_client.py", line 1212, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.AuthenticationError: Error code: 401 - {'error': {'message': 'Incorrect API key provided: voc-1082**************************************7945. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2026-10-04 16:09:42,660 | INFO | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2026-10-04 16:09:42,660 | ERROR | LLM call failed for query: What is the maximum daily withdrawal for a student account?
+Traceback (most recent call last):
+  File "c:\Users\SARITHAMR\Saritha_Capstone\task_4_embeddings_retrieval\rag_pipeline_agentic.py", line 381, in generate_response
+    response = self.client.chat.completions.create(
+        model=self.model,
+    ...<6 lines>...
+        temperature=0,
+    )
+  File "C:\Users\SARITHAMR\AppData\Local\Programs\Python\Python313\Lib\site-packages\openai\_utils\_utils.py", line 298, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\SARITHAMR\AppData\Local\Programs\Python\Python313\Lib\site-packages\openai\resources\chat\completions\completions.py", line 1318, in create
+    return self._post(
+           ~~~~~~~~~~^
+        "/chat/completions",
+        ^^^^^^^^^^^^^^^^^^^^
+    ...<53 lines>...
+        stream_cls=Stream[ChatCompletionChunk],
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\SARITHAMR\AppData\Local\Programs\Python\Python313\Lib\site-packages\openai\_base_client.py", line 1439, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+                           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\SARITHAMR\AppData\Local\Programs\Python\Python313\Lib\site-packages\openai\_base_client.py", line 1212, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.AuthenticationError: Error code: 401 - {'error': {'message': 'Incorrect API key provided: voc-1082**************************************7945. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2026-10-04 16:09:42,973 | INFO | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2026-10-04 16:09:42,974 | ERROR | LLM call failed for query: What is the maximum daily withdrawal for a student account?
+Traceback (most recent call last):
+  File "c:\Users\SARITHAMR\Saritha_Capstone\task_4_embeddings_retrieval\rag_pipeline_agentic.py", line 381, in generate_response
+    response = self.client.chat.completions.create(
+        model=self.model,
+    ...<6 lines>...
+        temperature=0,
+    )
+  File "C:\Users\SARITHAMR\AppData\Local\Programs\Python\Python313\Lib\site-packages\openai\_utils\_utils.py", line 298, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\SARITHAMR\AppData\Local\Programs\Python\Python313\Lib\site-packages\openai\resources\chat\completions\completions.py", line 1318, in create
+    return self._post(
+           ~~~~~~~~~~^
+        "/chat/completions",
+        ^^^^^^^^^^^^^^^^^^^^
+    ...<53 lines>...
+        stream_cls=Stream[ChatCompletionChunk],
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\SARITHAMR\AppData\Local\Programs\Python\Python313\Lib\site-packages\openai\_base_client.py", line 1439, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+                           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\SARITHAMR\AppData\Local\Programs\Python\Python313\Lib\site-packages\openai\_base_client.py", line 1212, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.AuthenticationError: Error code: 401 - {'error': {'message': 'Incorrect API key provided: voc-1082**************************************7945. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2026-10-04 16:09:43,286 | INFO | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2026-10-04 16:09:43,286 | ERROR | LLM call failed for query: What is today's stock market price for Apple?
+Traceback (most recent call last):
+  File "c:\Users\SARITHAMR\Saritha_Capstone\task_4_embeddings_retrieval\rag_pipeline_agentic.py", line 381, in generate_response
+    response = self.client.chat.completions.create(
+        model=self.model,
+    ...<6 lines>...
+        temperature=0,
+    )
+  File "C:\Users\SARITHAMR\AppData\Local\Programs\Python\Python313\Lib\site-packages\openai\_utils\_utils.py", line 298, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\SARITHAMR\AppData\Local\Programs\Python\Python313\Lib\site-packages\openai\resources\chat\completions\completions.py", line 1318, in create
+    return self._post(
+           ~~~~~~~~~~^
+        "/chat/completions",
+        ^^^^^^^^^^^^^^^^^^^^
+    ...<53 lines>...
+        stream_cls=Stream[ChatCompletionChunk],
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\SARITHAMR\AppData\Local\Programs\Python\Python313\Lib\site-packages\openai\_base_client.py", line 1439, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+                           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\SARITHAMR\AppData\Local\Programs\Python\Python313\Lib\site-packages\openai\_base_client.py", line 1212, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.AuthenticationError: Error code: 401 - {'error': {'message': 'Incorrect API key provided: voc-1082**************************************7945. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2026-10-04 16:09:43,572 | INFO | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2026-10-04 16:09:43,572 | ERROR | LLM call failed for query: Is my account eligible for a loan?
+Traceback (most recent call last):
+  File "c:\Users\SARITHAMR\Saritha_Capstone\task_4_embeddings_retrieval\rag_pipeline_agentic.py", line 381, in generate_response
+    response = self.client.chat.completions.create(
+        model=self.model,
+    ...<6 lines>...
+        temperature=0,
+    )
+  File "C:\Users\SARITHAMR\AppData\Local\Programs\Python\Python313\Lib\site-packages\openai\_utils\_utils.py", line 298, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\SARITHAMR\AppData\Local\Programs\Python\Python313\Lib\site-packages\openai\resources\chat\completions\completions.py", line 1318, in create
+    return self._post(
+           ~~~~~~~~~~^
+        "/chat/completions",
+        ^^^^^^^^^^^^^^^^^^^^
+    ...<53 lines>...
+        stream_cls=Stream[ChatCompletionChunk],
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\SARITHAMR\AppData\Local\Programs\Python\Python313\Lib\site-packages\openai\_base_client.py", line 1439, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+                           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\SARITHAMR\AppData\Local\Programs\Python\Python313\Lib\site-packages\openai\_base_client.py", line 1212, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.AuthenticationError: Error code: 401 - {'error': {'message': 'Incorrect API key provided: voc-1082**************************************7945. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2026-10-04 16:09:43,867 | INFO | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2026-10-04 16:09:43,868 | ERROR | LLM call failed for query: I see a transaction I don't recognize. Can you reverse it?
+Traceback (most recent call last):
+  File "c:\Users\SARITHAMR\Saritha_Capstone\task_4_embeddings_retrieval\rag_pipeline_agentic.py", line 381, in generate_response
+    response = self.client.chat.completions.create(
+        model=self.model,
+    ...<6 lines>...
+        temperature=0,
+    )
+  File "C:\Users\SARITHAMR\AppData\Local\Programs\Python\Python313\Lib\site-packages\openai\_utils\_utils.py", line 298, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\SARITHAMR\AppData\Local\Programs\Python\Python313\Lib\site-packages\openai\resources\chat\completions\completions.py", line 1318, in create
+    return self._post(
+           ~~~~~~~~~~^
+        "/chat/completions",
+        ^^^^^^^^^^^^^^^^^^^^
+    ...<53 lines>...
+        stream_cls=Stream[ChatCompletionChunk],
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\SARITHAMR\AppData\Local\Programs\Python\Python313\Lib\site-packages\openai\_base_client.py", line 1439, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+                           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\SARITHAMR\AppData\Local\Programs\Python\Python313\Lib\site-packages\openai\_base_client.py", line 1212, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.AuthenticationError: Error code: 401 - {'error': {'message': 'Incorrect API key provided: voc-1082**************************************7945. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2026-10-04 16:09:44,158 | INFO | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2026-10-04 16:09:44,159 | ERROR | LLM call failed for query: What is the Gold Card annual fee and can you also tell me whether I am eligible for a personal loan?
+Traceback (most recent call last):
+  File "c:\Users\SARITHAMR\Saritha_Capstone\task_4_embeddings_retrieval\rag_pipeline_agentic.py", line 381, in generate_response
+    response = self.client.chat.completions.create(
+        model=self.model,
+    ...<6 lines>...
+        temperature=0,
+    )
+  File "C:\Users\SARITHAMR\AppData\Local\Programs\Python\Python313\Lib\site-packages\openai\_utils\_utils.py", line 298, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\SARITHAMR\AppData\Local\Programs\Python\Python313\Lib\site-packages\openai\resources\chat\completions\completions.py", line 1318, in create
+    return self._post(
+           ~~~~~~~~~~^
+        "/chat/completions",
+        ^^^^^^^^^^^^^^^^^^^^
+    ...<53 lines>...
+        stream_cls=Stream[ChatCompletionChunk],
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\SARITHAMR\AppData\Local\Programs\Python\Python313\Lib\site-packages\openai\_base_client.py", line 1439, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+                           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\SARITHAMR\AppData\Local\Programs\Python\Python313\Lib\site-packages\openai\_base_client.py", line 1212, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.AuthenticationError: Error code: 401 - {'error': {'message': 'Incorrect API key provided: voc-1082**************************************7945. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2026-10-04 16:46:28,029 | INFO | HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+2026-10-04 16:46:28,031 | WARNING | Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+2026-10-04 16:46:28,048 | INFO | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/modules.json?%2Fsentence-transformers%2Fall-MiniLM-L6-v2%2Fresolve%2Fmain%2Fmodules.json=&etag=%22952a9b81c0bfd99800fabf352f69c7ccd46c5e43%22 "HTTP/1.1 200 OK"
+2026-10-04 16:46:28,540 | INFO | HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json "HTTP/1.1 307 Temporary Redirect"
+2026-10-04 16:46:28,557 | INFO | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/config_sentence_transformers.json?%2Fsentence-transformers%2Fall-MiniLM-L6-v2%2Fresolve%2Fmain%2Fconfig_sentence_transformers.json=&etag=%22fd1b291129c607e5d49799f87cb219b27f98acdf%22 "HTTP/1.1 200 OK"
+2026-10-04 16:46:28,566 | INFO | Loading SentenceTransformer model from sentence-transformers/all-MiniLM-L6-v2.
+2026-10-04 16:46:28,802 | INFO | HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json "HTTP/1.1 307 Temporary Redirect"
+2026-10-04 16:46:28,819 | INFO | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/config_sentence_transformers.json?%2Fsentence-transformers%2Fall-MiniLM-L6-v2%2Fresolve%2Fmain%2Fconfig_sentence_transformers.json=&etag=%22fd1b291129c607e5d49799f87cb219b27f98acdf%22 "HTTP/1.1 200 OK"
+2026-10-04 16:46:29,063 | INFO | HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-10-04 16:46:29,096 | INFO | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/README.md?%2Fsentence-transformers%2Fall-MiniLM-L6-v2%2Fresolve%2Fmain%2FREADME.md=&etag=%2244af2e3b0fa3a0b6239e48422972bf755f28fde0%22 "HTTP/1.1 200 OK"
+2026-10-04 16:46:29,385 | INFO | HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+2026-10-04 16:46:29,401 | INFO | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/modules.json?%2Fsentence-transformers%2Fall-MiniLM-L6-v2%2Fresolve%2Fmain%2Fmodules.json=&etag=%22952a9b81c0bfd99800fabf352f69c7ccd46c5e43%22 "HTTP/1.1 200 OK"
+2026-10-04 16:46:29,642 | INFO | HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/sentence_bert_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-10-04 16:46:29,658 | INFO | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/sentence_bert_config.json?%2Fsentence-transformers%2Fall-MiniLM-L6-v2%2Fresolve%2Fmain%2Fsentence_bert_config.json=&etag=%2259d594003bf59880a884c574bf88ef7555bb0202%22 "HTTP/1.1 200 OK"
+2026-10-04 16:46:29,917 | INFO | HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/adapter_config.json "HTTP/1.1 404 Not Found"
+2026-10-04 16:46:30,192 | INFO | HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2 "HTTP/1.1 200 OK"
+2026-10-04 16:46:30,446 | INFO | HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2 "HTTP/1.1 200 OK"
+2026-10-04 16:46:31,431 | INFO | HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2 "HTTP/1.1 200 OK"
+2026-10-04 16:46:31,744 | INFO | HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+2026-10-04 16:46:32,015 | INFO | HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-10-04 16:46:32,384 | INFO | HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/1_Pooling/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-10-04 16:46:32,405 | INFO | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/1_Pooling%2Fconfig.json?%2Fsentence-transformers%2Fall-MiniLM-L6-v2%2Fresolve%2Fmain%2F1_Pooling%2Fconfig.json=&etag=%22d1514c3162bbe87b343f565fadc62e6c06f04f03%22 "HTTP/1.1 200 OK"
+2026-10-04 16:46:32,668 | INFO | HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/2_Normalize/config.json "HTTP/1.1 404 Not Found"
+2026-10-04 16:46:32,961 | INFO | HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2 "HTTP/1.1 200 OK"
+2026-10-04 16:46:35,142 | INFO | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2026-10-04 16:46:35,143 | ERROR | LLM call failed for query: What is the Gold Card annual fee?
+Traceback (most recent call last):
+  File "c:\Users\SARITHAMR\Saritha_Capstone\task_4_embeddings_retrieval\rag_pipeline_agentic.py", line 381, in generate_response
+    response = self.client.chat.completions.create(
+        model=self.model,
+    ...<6 lines>...
+        temperature=0,
+    )
+  File "C:\Users\SARITHAMR\AppData\Local\Programs\Python\Python313\Lib\site-packages\openai\_utils\_utils.py", line 298, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\SARITHAMR\AppData\Local\Programs\Python\Python313\Lib\site-packages\openai\resources\chat\completions\completions.py", line 1318, in create
+    return self._post(
+           ~~~~~~~~~~^
+        "/chat/completions",
+        ^^^^^^^^^^^^^^^^^^^^
+    ...<53 lines>...
+        stream_cls=Stream[ChatCompletionChunk],
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\SARITHAMR\AppData\Local\Programs\Python\Python313\Lib\site-packages\openai\_base_client.py", line 1439, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+                           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\SARITHAMR\AppData\Local\Programs\Python\Python313\Lib\site-packages\openai\_base_client.py", line 1212, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.AuthenticationError: Error code: 401 - {'error': {'message': 'Incorrect API key provided: voc-1082**************************************7945. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2026-10-04 16:46:35,446 | INFO | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2026-10-04 16:46:35,448 | ERROR | LLM call failed for query: What is the Gold Card annual fee?
+Traceback (most recent call last):
+  File "c:\Users\SARITHAMR\Saritha_Capstone\task_4_embeddings_retrieval\rag_pipeline_agentic.py", line 381, in generate_response
+    response = self.client.chat.completions.create(
+        model=self.model,
+    ...<6 lines>...
+        temperature=0,
+    )
+  File "C:\Users\SARITHAMR\AppData\Local\Programs\Python\Python313\Lib\site-packages\openai\_utils\_utils.py", line 298, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\SARITHAMR\AppData\Local\Programs\Python\Python313\Lib\site-packages\openai\resources\chat\completions\completions.py", line 1318, in create
+    return self._post(
+           ~~~~~~~~~~^
+        "/chat/completions",
+        ^^^^^^^^^^^^^^^^^^^^
+    ...<53 lines>...
+        stream_cls=Stream[ChatCompletionChunk],
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\SARITHAMR\AppData\Local\Programs\Python\Python313\Lib\site-packages\openai\_base_client.py", line 1439, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+                           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\SARITHAMR\AppData\Local\Programs\Python\Python313\Lib\site-packages\openai\_base_client.py", line 1212, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.AuthenticationError: Error code: 401 - {'error': {'message': 'Incorrect API key provided: voc-1082**************************************7945. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2026-10-04 16:46:35,767 | INFO | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2026-10-04 16:46:35,767 | ERROR | LLM call failed for query: What is the Gold Card annual fee?
+Traceback (most recent call last):
+  File "c:\Users\SARITHAMR\Saritha_Capstone\task_4_embeddings_retrieval\rag_pipeline_agentic.py", line 381, in generate_response
+    response = self.client.chat.completions.create(
+        model=self.model,
+    ...<6 lines>...
+        temperature=0,
+    )
+  File "C:\Users\SARITHAMR\AppData\Local\Programs\Python\Python313\Lib\site-packages\openai\_utils\_utils.py", line 298, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\SARITHAMR\AppData\Local\Programs\Python\Python313\Lib\site-packages\openai\resources\chat\completions\completions.py", line 1318, in create
+    return self._post(
+           ~~~~~~~~~~^
+        "/chat/completions",
+        ^^^^^^^^^^^^^^^^^^^^
+    ...<53 lines>...
+        stream_cls=Stream[ChatCompletionChunk],
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\SARITHAMR\AppData\Local\Programs\Python\Python313\Lib\site-packages\openai\_base_client.py", line 1439, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+                           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\SARITHAMR\AppData\Local\Programs\Python\Python313\Lib\site-packages\openai\_base_client.py", line 1212, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.AuthenticationError: Error code: 401 - {'error': {'message': 'Incorrect API key provided: voc-1082**************************************7945. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2026-10-04 16:46:36,066 | INFO | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2026-10-04 16:46:36,067 | ERROR | LLM call failed for query: What is the maximum daily withdrawal for a student account?
+Traceback (most recent call last):
+  File "c:\Users\SARITHAMR\Saritha_Capstone\task_4_embeddings_retrieval\rag_pipeline_agentic.py", line 381, in generate_response
+    response = self.client.chat.completions.create(
+        model=self.model,
+    ...<6 lines>...
+        temperature=0,
+    )
+  File "C:\Users\SARITHAMR\AppData\Local\Programs\Python\Python313\Lib\site-packages\openai\_utils\_utils.py", line 298, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\SARITHAMR\AppData\Local\Programs\Python\Python313\Lib\site-packages\openai\resources\chat\completions\completions.py", line 1318, in create
+    return self._post(
+           ~~~~~~~~~~^
+        "/chat/completions",
+        ^^^^^^^^^^^^^^^^^^^^
+    ...<53 lines>...
+        stream_cls=Stream[ChatCompletionChunk],
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\SARITHAMR\AppData\Local\Programs\Python\Python313\Lib\site-packages\openai\_base_client.py", line 1439, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+                           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\SARITHAMR\AppData\Local\Programs\Python\Python313\Lib\site-packages\openai\_base_client.py", line 1212, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.AuthenticationError: Error code: 401 - {'error': {'message': 'Incorrect API key provided: voc-1082**************************************7945. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2026-10-04 16:46:36,372 | INFO | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2026-10-04 16:46:36,373 | ERROR | LLM call failed for query: What is the maximum daily withdrawal for a student account?
+Traceback (most recent call last):
+  File "c:\Users\SARITHAMR\Saritha_Capstone\task_4_embeddings_retrieval\rag_pipeline_agentic.py", line 381, in generate_response
+    response = self.client.chat.completions.create(
+        model=self.model,
+    ...<6 lines>...
+        temperature=0,
+    )
+  File "C:\Users\SARITHAMR\AppData\Local\Programs\Python\Python313\Lib\site-packages\openai\_utils\_utils.py", line 298, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\SARITHAMR\AppData\Local\Programs\Python\Python313\Lib\site-packages\openai\resources\chat\completions\completions.py", line 1318, in create
+    return self._post(
+           ~~~~~~~~~~^
+        "/chat/completions",
+        ^^^^^^^^^^^^^^^^^^^^
+    ...<53 lines>...
+        stream_cls=Stream[ChatCompletionChunk],
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\SARITHAMR\AppData\Local\Programs\Python\Python313\Lib\site-packages\openai\_base_client.py", line 1439, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+                           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\SARITHAMR\AppData\Local\Programs\Python\Python313\Lib\site-packages\openai\_base_client.py", line 1212, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.AuthenticationError: Error code: 401 - {'error': {'message': 'Incorrect API key provided: voc-1082**************************************7945. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2026-10-04 16:46:36,673 | INFO | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2026-10-04 16:46:36,673 | ERROR | LLM call failed for query: What is the maximum daily withdrawal for a student account?
+Traceback (most recent call last):
+  File "c:\Users\SARITHAMR\Saritha_Capstone\task_4_embeddings_retrieval\rag_pipeline_agentic.py", line 381, in generate_response
+    response = self.client.chat.completions.create(
+        model=self.model,
+    ...<6 lines>...
+        temperature=0,
+    )
+  File "C:\Users\SARITHAMR\AppData\Local\Programs\Python\Python313\Lib\site-packages\openai\_utils\_utils.py", line 298, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\SARITHAMR\AppData\Local\Programs\Python\Python313\Lib\site-packages\openai\resources\chat\completions\completions.py", line 1318, in create
+    return self._post(
+           ~~~~~~~~~~^
+        "/chat/completions",
+        ^^^^^^^^^^^^^^^^^^^^
+    ...<53 lines>...
+        stream_cls=Stream[ChatCompletionChunk],
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\SARITHAMR\AppData\Local\Programs\Python\Python313\Lib\site-packages\openai\_base_client.py", line 1439, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+                           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\SARITHAMR\AppData\Local\Programs\Python\Python313\Lib\site-packages\openai\_base_client.py", line 1212, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.AuthenticationError: Error code: 401 - {'error': {'message': 'Incorrect API key provided: voc-1082**************************************7945. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2026-10-04 16:46:36,977 | INFO | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2026-10-04 16:46:36,977 | ERROR | LLM call failed for query: What is today's stock market price for Apple?
+Traceback (most recent call last):
+  File "c:\Users\SARITHAMR\Saritha_Capstone\task_4_embeddings_retrieval\rag_pipeline_agentic.py", line 381, in generate_response
+    response = self.client.chat.completions.create(
+        model=self.model,
+    ...<6 lines>...
+        temperature=0,
+    )
+  File "C:\Users\SARITHAMR\AppData\Local\Programs\Python\Python313\Lib\site-packages\openai\_utils\_utils.py", line 298, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\SARITHAMR\AppData\Local\Programs\Python\Python313\Lib\site-packages\openai\resources\chat\completions\completions.py", line 1318, in create
+    return self._post(
+           ~~~~~~~~~~^
+        "/chat/completions",
+        ^^^^^^^^^^^^^^^^^^^^
+    ...<53 lines>...
+        stream_cls=Stream[ChatCompletionChunk],
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\SARITHAMR\AppData\Local\Programs\Python\Python313\Lib\site-packages\openai\_base_client.py", line 1439, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+                           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\SARITHAMR\AppData\Local\Programs\Python\Python313\Lib\site-packages\openai\_base_client.py", line 1212, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.AuthenticationError: Error code: 401 - {'error': {'message': 'Incorrect API key provided: voc-1082**************************************7945. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2026-10-04 16:46:37,292 | INFO | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2026-10-04 16:46:37,293 | ERROR | LLM call failed for query: Is my account eligible for a loan?
+Traceback (most recent call last):
+  File "c:\Users\SARITHAMR\Saritha_Capstone\task_4_embeddings_retrieval\rag_pipeline_agentic.py", line 381, in generate_response
+    response = self.client.chat.completions.create(
+        model=self.model,
+    ...<6 lines>...
+        temperature=0,
+    )
+  File "C:\Users\SARITHAMR\AppData\Local\Programs\Python\Python313\Lib\site-packages\openai\_utils\_utils.py", line 298, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\SARITHAMR\AppData\Local\Programs\Python\Python313\Lib\site-packages\openai\resources\chat\completions\completions.py", line 1318, in create
+    return self._post(
+           ~~~~~~~~~~^
+        "/chat/completions",
+        ^^^^^^^^^^^^^^^^^^^^
+    ...<53 lines>...
+        stream_cls=Stream[ChatCompletionChunk],
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\SARITHAMR\AppData\Local\Programs\Python\Python313\Lib\site-packages\openai\_base_client.py", line 1439, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+                           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\SARITHAMR\AppData\Local\Programs\Python\Python313\Lib\site-packages\openai\_base_client.py", line 1212, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.AuthenticationError: Error code: 401 - {'error': {'message': 'Incorrect API key provided: voc-1082**************************************7945. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2026-10-04 16:46:37,597 | INFO | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2026-10-04 16:46:37,598 | ERROR | LLM call failed for query: I see a transaction I don't recognize. Can you reverse it?
+Traceback (most recent call last):
+  File "c:\Users\SARITHAMR\Saritha_Capstone\task_4_embeddings_retrieval\rag_pipeline_agentic.py", line 381, in generate_response
+    response = self.client.chat.completions.create(
+        model=self.model,
+    ...<6 lines>...
+        temperature=0,
+    )
+  File "C:\Users\SARITHAMR\AppData\Local\Programs\Python\Python313\Lib\site-packages\openai\_utils\_utils.py", line 298, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\SARITHAMR\AppData\Local\Programs\Python\Python313\Lib\site-packages\openai\resources\chat\completions\completions.py", line 1318, in create
+    return self._post(
+           ~~~~~~~~~~^
+        "/chat/completions",
+        ^^^^^^^^^^^^^^^^^^^^
+    ...<53 lines>...
+        stream_cls=Stream[ChatCompletionChunk],
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\SARITHAMR\AppData\Local\Programs\Python\Python313\Lib\site-packages\openai\_base_client.py", line 1439, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+                           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\SARITHAMR\AppData\Local\Programs\Python\Python313\Lib\site-packages\openai\_base_client.py", line 1212, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.AuthenticationError: Error code: 401 - {'error': {'message': 'Incorrect API key provided: voc-1082**************************************7945. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2026-10-04 16:46:37,914 | INFO | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2026-10-04 16:46:37,915 | ERROR | LLM call failed for query: What is the Gold Card annual fee and can you also tell me whether I am eligible for a personal loan?
+Traceback (most recent call last):
+  File "c:\Users\SARITHAMR\Saritha_Capstone\task_4_embeddings_retrieval\rag_pipeline_agentic.py", line 381, in generate_response
+    response = self.client.chat.completions.create(
+        model=self.model,
+    ...<6 lines>...
+        temperature=0,
+    )
+  File "C:\Users\SARITHAMR\AppData\Local\Programs\Python\Python313\Lib\site-packages\openai\_utils\_utils.py", line 298, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\SARITHAMR\AppData\Local\Programs\Python\Python313\Lib\site-packages\openai\resources\chat\completions\completions.py", line 1318, in create
+    return self._post(
+           ~~~~~~~~~~^
+        "/chat/completions",
+        ^^^^^^^^^^^^^^^^^^^^
+    ...<53 lines>...
+        stream_cls=Stream[ChatCompletionChunk],
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\SARITHAMR\AppData\Local\Programs\Python\Python313\Lib\site-packages\openai\_base_client.py", line 1439, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+                           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\SARITHAMR\AppData\Local\Programs\Python\Python313\Lib\site-packages\openai\_base_client.py", line 1212, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.AuthenticationError: Error code: 401 - {'error': {'message': 'Incorrect API key provided: voc-1082**************************************7945. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
